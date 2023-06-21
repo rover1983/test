@@ -1,5 +1,5 @@
 git status - displayes current status of working directory probably
-git clone - copies files from github to local working directory
-git add - adds edited files to staging area
-git commit - sends files to local repository
+git clone https://github.com/rover1983/project - copies files from github to local working directory
+git add filename - adds edited files to staging area
+git commit -m "some message" - sends files to local repository
 git push - uploads files from local repository to github repository
