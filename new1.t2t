@@ -4,3 +4,7 @@ git add filename - adds edited files to staging area
 git commit -m "some message" - sends files to local repository
 git push - uploads files from local repository to github repository
 git log --author rover1983 - log of commits
+git show - shows the last commit details difference between previous and current state of file
+git blame filename - author of the changes in the file
+git diff - tracking changes in the file
+echo "Add this line to the file" >> new1.t2t
