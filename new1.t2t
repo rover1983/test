@@ -3,3 +3,4 @@ git clone https://github.com/rover1983/project - copies files from github to loc
 git add filename - adds edited files to staging area
 git commit -m "some message" - sends files to local repository
 git push - uploads files from local repository to github repository
+git log --author rover1983 - log of commits
