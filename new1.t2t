@@ -8,3 +8,5 @@ git show - shows the last commit details difference between previous and current
 git blame filename - author of the changes in the file
 git diff - tracking changes in the file
 echo "Add this line to the file" >> new1.t2t
+git reset HEAD~1 - cancel recent commit and go 1 step back 
+git 
