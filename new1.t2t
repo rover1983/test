@@ -1,5 +1,19 @@
-git status - displayes current status of working directory probably
-git clone https://github.com/rover1983/project - copies files from github to local working directory
-git add filename - adds edited files to staging area
-git commit -m "some message" - sends files to local repository
-git push - uploads files from local repository to github repository
+git add filename or -A (all files) - adds edited files to staging area wich neads to be included in the next commit
+git commit -m "some message" - sends files to local repository, it is like setting a checkpoint in the development process. Saves changes locally
+git pull - is used to get updates from the remote repo. git pull is a combination of git fetch and git merge
+git log --author rover1983 - log of commits. Use to see commit history
+git show - shows the last commit details difference between previous and current state of file
+git blame filename - author of the changes in the file
+git diff - tracking changes in the file
+echo "Add this line to the file" >> new1.t2t
+git reset HEAD~1 - cancel recent commit and go 1 step back. Changes commit history. Affects the 2nd area(staging area)
+git revert hashcode of commit - Creates a new commit that undoes the changes from a previous commit. Adds new history to the project (doesn't modify existing history)
+  You can still see all of the commits even the reverted ones. press shift + q to exit. Affects the 3rd area(local repo)
+git checkout filename.txt - cancel the changes in the file in working tree. 
+git checkout branchname - mostly used for switching between branches and for checking out files and commits. 
+git branch branchname - creates branch locally
+git branch -d branchname - deleting a branch
+git stash - putting changes in a temporary location
+git merge -your branch merging with the parent branch. It integrates your feature branch with all of its commits back to the dev (or master) branch. 
+For example, you want to merge your feature branch into the dev branch:
+First you should switch to the dev branch: git checkout dev, update your local dev branch: git fetch, and then: git merge <branch-name>
