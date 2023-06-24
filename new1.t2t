@@ -6,7 +6,7 @@ git show - shows the last commit details difference between previous and current
 git blame filename - author of the changes in the file
 git diff - tracking changes in the file
 echo "Add this line to the file" >> new1.t2t
-git reset HEAD~1 - cancel recent commit and go 1 step back. Changes commit history. Affects the 2nd area(staging area)
+git reset HEAD~1 - cancel recent commit and go 1 step back. Changes commit history.
 git revert hashcode of commit - Creates a new commit that undoes the changes from a previous commit. Adds new history to the project (doesn't modify existing history)
   You can still see all of the commits even the reverted ones. press shift + q to exit. Affects the 3rd area(local repo)
 git checkout filename.txt - cancel the changes in the file in working tree. 
