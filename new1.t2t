@@ -18,3 +18,5 @@ git merge -your branch merging with the parent branch. It integrates your featur
 For example, you want to merge your feature branch into the dev branch:
 First you should switch to the dev branch: git checkout dev, update your local dev branch: git fetch, and then: git merge <branch-name>
 git remote add origin <url> - connecting with remote repository from GitHub (origin - is the name of remote repository)
+git push -u origin <branch> - uploading changes from local repo to remote with creating connection between them (for the first upload)
+git remote - remote server
